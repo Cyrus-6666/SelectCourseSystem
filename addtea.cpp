@@ -83,7 +83,7 @@ void addtea::on_btn_sys_addtea_clicked()
                }
            }
            database.close();
-             //writeIn(info);
+
           }
     }
 }
