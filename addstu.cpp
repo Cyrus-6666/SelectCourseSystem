@@ -44,7 +44,7 @@ void addstu::on_btn_sys_addstu_clicked()
     }
     else
     {
-        // do something
+        
         //操控数据库
         //创建表
         QSqlQuery sql_query;
