@@ -17,7 +17,7 @@ public:
     ~addcourse();
 
 private slots:
-    void on_btn_sys_addcou_clicked();
+    void on_btn_sys_addcou_clicked();//按键连接
 
     void on_btn_sys_addcoucancel_clicked();
 

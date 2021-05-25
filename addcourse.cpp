@@ -82,7 +82,7 @@ void addcourse::on_btn_sys_addcou_clicked()
                sql_query.addBindValue(credit);
                sql_query.addBindValue(college);
                sql_query.addBindValue(address);
-               //id int primary key, name varchar(30), property varchar(30), credit int, college varchar(30), address varchar(30)
+               //id int primary key, name varchar(30), property varchar(30), credit int, college varchar(30), address
                //n,i,n,c,c,a
                if(!sql_query.exec())
                {
